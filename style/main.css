@@ -1,0 +1,181 @@
+/*
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1  Reset      
+2  
+
+==================================
+1.0 Reset
+==================================
+ http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #CEFF4A;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+==================================
+2 body
+==================================
+*/
+body {
+  margin: 2%;
+}
+/*
+==================================
+3 header
+==================================
+*/
+header{
+  margin-bottom: 2%;
+}
+header h1 {
+  font-family: 'Modak', cursive;
+  font-size: 4vw;
+  color: #87B211;
+}
+
+/*
+==================================
+4 Section container
+==================================
+*/
+
+/*
+==================================
+4.1 Section form
+==================================
+*/
+
+form {
+  margin: 20px 0 40px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+#warning {
+  color: red;
+  visibility: hidden;
+}
+
+#title, #note-pad {
+  width: 100%;
+}
+
+#note-pad {
+  height: 300px;
+  
+
+}
+
+/*
+==================================
+5 Notes-list and add button
+==================================
+*/
+.list-and-addButton {
+  display: flex;
+  justify-content: space-between;
+
+}
+/*
+==================================
+5.1 Section notes-list
+==================================
+*/
+.notes-list h2 {
+  font-family: 'Modak', cursive;
+  color: #87B211;
+  font-size: 3vw;
+}
+
+.notes-list button {
+  background-color: #CEFF4A;
+  color: #7D00B2;
+  /* font-family: 'Lato', sans-serif; */
+  border: none;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 50%;
+  margin: 10px 5px;
+}
+
+.notes-list button:hover {
+  cursor: pointer;
+  color: #C230FF;
+  /* font-size: 18px; */
+  font: 300 18px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+==================================
+5.2 Section add new button
+==================================
+*/
+
+#add-new {
+  background-color: #7D00B2;
+  color: white;
+  border: none;
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  margin: 12px 22px;
+}
+
+#add-new:hover {
+  background-color: #C230FF;
+  cursor: pointer;
+}
