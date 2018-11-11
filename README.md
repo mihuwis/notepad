@@ -1,6 +1,6 @@
-# Note PAd
+# Note Pad
 
-Very Simple note pad in Java Script
+Very simple note-pad in Java Script
 
 ## Getting Started
 
@@ -8,8 +8,7 @@ Pull or copy code and open index.html in any brownser
 
 ### Prerequisites
 
-None realy
-Meaby just take deep breath before you open it - graphic design is not my strong point :D
+None realy. Meaby just take deep breath, before you open it - graphic design, is not my strong point :D
 
 
 ```
